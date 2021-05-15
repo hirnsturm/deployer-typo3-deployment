@@ -1,0 +1,31 @@
+{
+    "name": "hirnsturm/deployer-typo3-deployment",
+    "description": "TYPO3 CMS deployment with deployer/deployer.",
+    "type": "project",
+    "require": {
+        "deployer/deployer": "^6.8"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Steve Lenz",
+            "email": "kontakt@steve-lenz.de",
+            "role": "Product Owner"
+        }
+    ],
+    "homepage": "https://github.com/hirnsturm/deployer-typo3-deployment",
+    "support": {
+        "issues": "https://github.com/hirnsturm/deployer-typo3-deployment/issues"
+    },
+    "minimum-stability": "stable",
+    "keywords": [
+        "TYPO3",
+        "deployment",
+        "deployer"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Hirnsturm\\DeployerTypo3Deployment\\": "src/"
+        }
+    }
+}
