@@ -3,7 +3,8 @@
     "description": "TYPO3 CMS deployment with deployer/deployer.",
     "type": "project",
     "require": {
-        "deployer/deployer": "^6.8"
+        "deployer/deployer": "^6.8",
+        "composer/composer": "^1.1 || ^2.0"
     },
     "license": "MIT",
     "authors": [
