@@ -96,7 +96,11 @@ class Script implements ScriptInterface
      */
     protected static function install()
     {
-
+        static::$fs->copy(
+            static::$distDir . '/deploy.php',
+            static::$rootDir . '/deploy.php',
+            true
+        );
     }
 
     /**
@@ -104,7 +108,11 @@ class Script implements ScriptInterface
      */
     protected static function update()
     {
-
+        static::$fs->copy(
+            static::$distDir . '/deploy.php',
+            static::$rootDir . '/deploy.php',
+            true
+        );
     }
 
     /**
